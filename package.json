@@ -1,17 +1,17 @@
 {
     "name": "electronautoupdate",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "sandeep",
-    "homepage": "./",
-    "description": "An example of an autoupdating electron app",
-    "repository": "https://github.com/sandeeponrails/electron-updater-test.git",
-    "main": "electron.js",
-    "dependencies": {
-        "electron-updater": "^2.10.1"
-    },
+    "main": "main.js",
     "scripts": {
         "build": "build --win",
-        "ship": "build --win -p always"
+        "ship": "build --win -p always",
+        "start": "electron ."
+    },
+    "description": "An example of an autoupdating electron app",
+    "repository": "https://github.com/sandeeponrails/electron-updater-test.git",
+    "dependencies": {
+        "electron-updater": "^2.23.3"
     },
     "devDependencies": {
         "electron": "^2.0.3",
